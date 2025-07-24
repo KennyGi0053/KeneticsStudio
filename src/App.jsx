@@ -1,6 +1,6 @@
 import './App.css'
 import Navbar from './components/Navbar'
-import Carrusel from './components/carrusel'
+import Carrusel from './components/Carrusel'
 import Servicios from "./components/Servicios"
 import Planes from './components/Planes'
 function App() {
