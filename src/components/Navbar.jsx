@@ -28,7 +28,7 @@ const Navbar = () => {
     <nav className="bg-black h-30 w-full">
         <div className="flex items-center justify-between">
         <img src={logo} alt="logo" 
-        className="h-20 ml-6 mt-2 "
+        className="h-20 md:ml-6 mt-2 "
         />
          {/* Botón hamburguesa */}
         <button
