@@ -137,25 +137,25 @@ const Planes = () => {
           />
 
           <div className="absolute mt-4 top-0 left-0 w-full h-full bg-[#1f1f26] opacity-100 md:opacity-0 group-hover:md:opacity-100 transition-opacity duration-500 p-6 flex flex-col">
-            <h2 className="text-xl font-semibold text-white">Community Silver</h2>
-            <h1 className="text-2xl text-white mt-4">$299/mes</h1>
+            <h2 className="text-xl font-semibold text-white">Plan Web Silver</h2>
+            <h1 className="text-2xl text-white mt-4">70$ - 120$</h1>
 
             <div className="text-white mt-6 space-y-2">
               <div className="flex items-center gap-2">
                 <img src={check} alt="" className="h-4 w-4" />
-                <p>Gestión de redes sociales</p>
+                <p>Diseño personalizado</p>
               </div>
               <div className="flex items-center gap-2">
                 <img src={check} alt="" className="h-4 w-4" />
-                <p>12 publicaciones mensuales</p>
+                <p>Programación desde 0</p>
               </div>
               <div className="flex items-center gap-2">
                 <img src={check} alt="" className="h-4 w-4" />
-                <p>Respuesta a comentarios</p>
+                <p>Botón de contacto</p>
               </div>
               <div className="flex items-center gap-2">
                 <img src={check} alt="" className="h-4 w-4" />
-                <p>Informe mensual básico</p>
+                <p>Responsivo(versión para móvil)</p>
               </div>
             </div>
             <button className="mt-12 border  bg-[#0aadbf] border-gray-400 text-white font-bold rounded-lg h-10 w-full cursor-pointer">
@@ -173,25 +173,25 @@ const Planes = () => {
           />
 
           <div className="absolute mt-4 top-0 left-0 w-full h-full bg-[#1f1f26] opacity-100 md:opacity-0 group-hover:md:opacity-100 transition-opacity duration-500 p-6 flex flex-col">
-            <h2 className="text-xl font-semibold text-white">Community Gold</h2>
-            <h1 className="text-2xl text-white mt-4">$499/mes</h1>
+            <h2 className="text-xl font-semibold text-white">Plan Web Gold</h2>
+            <h1 className="text-2xl text-white mt-4">120$ - 170$</h1>
 
             <div className="text-white mt-6 space-y-2">
               <div className="flex items-center gap-2">
                 <img src={check} alt="" className="h-4 w-4" />
-                <p>Gestión de redes + ADS</p>
+                <p>Diseño personalizado</p>
               </div>
               <div className="flex items-center gap-2">
                 <img src={check} alt="" className="h-4 w-4" />
-                <p>20 publicaciones mensuales</p>
+                <p>Hasta 4 secciones</p>
               </div>
               <div className="flex items-center gap-2">
                 <img src={check} alt="" className="h-4 w-4" />
-                <p>Soporte a clientes</p>
+                <p>Mapa</p>
               </div>
               <div className="flex items-center gap-2">
                 <img src={check} alt="" className="h-4 w-4" />
-                <p>Informe profesional</p>
+                <p>Formulario y animaciones básicas</p>
               </div>
             </div>
             <button className="cursor-pointer mt-12 border font-bold bg-[#0aadbf] border-gray-400 text-white rounded-lg h-10 w-full">
@@ -208,25 +208,25 @@ const Planes = () => {
           />
 
           <div className="absolute top-0 left-0 w-full h-full bg-[#1f1f26] opacity-100 md:opacity-0 group-hover:md:opacity-100 transition-opacity duration-500 p-6 flex flex-col">
-            <h2 className="text-xl mt-4 font-semibold text-white">Community Platinum</h2>
-            <h1 className="text-2xl text-white mt-4">$499/mes</h1>
+            <h2 className="text-xl mt-4 font-semibold text-white">Plan Web Platinum</h2>
+            <h1 className="text-2xl text-white mt-4">170$ - 230$+</h1>
 
             <div className="text-white mt-6 space-y-2">
               <div className="flex items-center gap-2">
                 <img src={check} alt="" className="h-4 w-4" />
-                <p>Gestión de redes + ADS</p>
+                <p>Diseño personalizado</p>
               </div>
               <div className="flex items-center gap-2">
                 <img src={check} alt="" className="h-4 w-4" />
-                <p>20 publicaciones mensuales</p>
+                <p>Catálogo o reservas</p>
               </div>
               <div className="flex items-center gap-2">
                 <img src={check} alt="" className="h-4 w-4" />
-                <p>Soporte a clientes</p>
+                <p>Funcionalidades interactivas</p>
               </div>
               <div className="flex items-center gap-2">
                 <img src={check} alt="" className="h-4 w-4" />
-                <p>Informe profesional</p>
+                <p>SEO básico</p>
               </div>
             </div>
             <button className="cursor-pointer mt-12 border font-bold bg-[#0aadbf] border-gray-400 text-white rounded-lg h-10 w-full">
@@ -236,7 +236,7 @@ const Planes = () => {
         </div>
       </div>
                   {/* Contenedor horizontal con scroll */}
-      <h2 className="text-xl font-extrabold text-center text-white mt-10">Planes Mobile</h2>
+      <h2 className="text-xl font-extrabold text-center text-white mt-10">Planes Mobile App</h2>
       <div className="flex overflow-x-auto gap-6 md:justify-center md:gap-20 flex-nowrap mt-10">
         {/* Tarjeta 1 */}
         <div className="flex-shrink-0 group relative w-80 h-96 border-2 border-gray-400 rounded-lg shadow-2xl bg-[#1f1f26] overflow-hidden transition-all duration-300 hover:shadow-indigo-500/100">
@@ -247,25 +247,25 @@ const Planes = () => {
           />
 
           <div className="absolute mt-4 top-0 left-0 w-full h-full bg-[#1f1f26] opacity-100 md:opacity-0 group-hover:md:opacity-100 transition-opacity duration-500 p-6 flex flex-col">
-            <h2 className="text-xl font-semibold text-white">Community Silver</h2>
-            <h1 className="text-2xl text-white mt-4">$299/mes</h1>
+            <h2 className="text-xl font-semibold text-white">Mobile Silver</h2>
+            <h1 className="text-2xl text-white mt-4">130$ - 160$</h1>
 
             <div className="text-white mt-6 space-y-2">
               <div className="flex items-center gap-2">
                 <img src={check} alt="" className="h-4 w-4" />
-                <p>Gestión de redes sociales</p>
+                <p>Diseño personalizado</p>
               </div>
               <div className="flex items-center gap-2">
                 <img src={check} alt="" className="h-4 w-4" />
-                <p>12 publicaciones mensuales</p>
+                <p>Menú (Tabbar)</p>
               </div>
               <div className="flex items-center gap-2">
                 <img src={check} alt="" className="h-4 w-4" />
-                <p>Respuesta a comentarios</p>
+                <p>Whatsapp o contacto</p>
               </div>
               <div className="flex items-center gap-2">
                 <img src={check} alt="" className="h-4 w-4" />
-                <p>Informe mensual básico</p>
+                <p>App estática</p>
               </div>
             </div>
             <button className="mt-12 border  bg-[#0aadbf] border-gray-400 text-white font-bold rounded-lg h-10 w-full cursor-pointer">
@@ -283,25 +283,25 @@ const Planes = () => {
           />
 
           <div className="absolute mt-4 top-0 left-0 w-full h-full bg-[#1f1f26] opacity-100 md:opacity-0 group-hover:md:opacity-100 transition-opacity duration-500 p-6 flex flex-col">
-            <h2 className="text-xl font-semibold text-white">Community Gold</h2>
-            <h1 className="text-2xl text-white mt-4">$499/mes</h1>
+            <h2 className="text-xl font-semibold text-white">Mobile Gold</h2>
+            <h1 className="text-2xl text-white mt-4">180$ - 230$</h1>
 
             <div className="text-white mt-6 space-y-2">
               <div className="flex items-center gap-2">
                 <img src={check} alt="" className="h-4 w-4" />
-                <p>Gestión de redes + ADS</p>
+                <p>Diseño personaliado</p>
               </div>
               <div className="flex items-center gap-2">
                 <img src={check} alt="" className="h-4 w-4" />
-                <p>20 publicaciones mensuales</p>
+                <p>Login/Registro</p>
               </div>
               <div className="flex items-center gap-2">
                 <img src={check} alt="" className="h-4 w-4" />
-                <p>Soporte a clientes</p>
+                <p>Base de datos para tienda</p>
               </div>
               <div className="flex items-center gap-2">
                 <img src={check} alt="" className="h-4 w-4" />
-                <p>Informe profesional</p>
+                <p>Cartas de productos</p>
               </div>
             </div>
             <button className="cursor-pointer mt-12 border font-bold bg-[#0aadbf] border-gray-400 text-white rounded-lg h-10 w-full">
@@ -318,25 +318,25 @@ const Planes = () => {
           />
 
           <div className="absolute top-0 left-0 w-full h-full bg-[#1f1f26] opacity-100 md:opacity-0 group-hover:md:opacity-100 transition-opacity duration-500 p-6 flex flex-col">
-            <h2 className="text-xl mt-4 font-semibold text-white">Community Platinum</h2>
-            <h1 className="text-2xl text-white mt-4">$499/mes</h1>
+            <h2 className="text-xl mt-4 font-semibold text-white">Mobile Platinum</h2>
+            <h1 className="text-2xl text-white mt-4">250$ - 400$+</h1>
 
             <div className="text-white mt-6 space-y-2">
               <div className="flex items-center gap-2">
                 <img src={check} alt="" className="h-4 w-4" />
-                <p>Gestión de redes + ADS</p>
+                <p>Notificaciones</p>
               </div>
               <div className="flex items-center gap-2">
                 <img src={check} alt="" className="h-4 w-4" />
-                <p>20 publicaciones mensuales</p>
+                <p>Carrito de compras</p>
               </div>
               <div className="flex items-center gap-2">
                 <img src={check} alt="" className="h-4 w-4" />
-                <p>Soporte a clientes</p>
+                <p>reservas</p>
               </div>
               <div className="flex items-center gap-2">
                 <img src={check} alt="" className="h-4 w-4" />
-                <p>Informe profesional</p>
+                <p>Google maps, API externa</p>
               </div>
             </div>
             <button className="cursor-pointer mt-12 border font-bold bg-[#0aadbf] border-gray-400 text-white rounded-lg h-10 w-full">
