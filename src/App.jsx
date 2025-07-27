@@ -3,6 +3,8 @@ import Navbar from './components/Navbar'
 import Carrusel from './components/Carrusel'
 import Servicios from "./components/Servicios"
 import Planes from './components/Planes'
+import Testimonios from './components/Testimonios'
+import Contacto from './components/Contacto'
 function App() {
 
 
@@ -12,6 +14,8 @@ function App() {
     <Carrusel/>
     <Servicios/>
     <Planes/>
+    <Testimonios/>
+    <Contacto/>
 </div>
   )
 }
