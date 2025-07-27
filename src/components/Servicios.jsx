@@ -10,7 +10,7 @@ import facebook from "../assets/facebook.png"
 
 const Servicios = () => {
   return (
-    <div className='mt-10 bg-neutral-950 pt-12'>
+    <div id="servicios" className='mt-10 bg-neutral-950 pt-12'>
       <h1 className='text-white text-xl text-center font-bold'>Nuestros Servicios</h1>
 
       {/* Scroll horizontal en móvil */}

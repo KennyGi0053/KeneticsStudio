@@ -5,7 +5,7 @@ import testi2 from "../assets/testi2.jpg"
 
 const Testimonios = () => {
   return (
-    <div className='p-4'>
+    <div id="testimonios" className='p-4'>
       <h1 className='text-xl text-white font-bold text-center mt-20'>Testimonios</h1>
       <div className="mt-12 w-full items-center justify-center">
 <div className="flex flex-col md:flex-row gap-6 md:gap-20 justify-center items-center">

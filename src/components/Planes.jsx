@@ -13,9 +13,9 @@ import mobileprice3 from "../assets/mobileprice3.png"
 const Planes = () => {
   return (
      
-    <div className="p-4 mt-20">
+    <div id="planes" className="p-4 mt-20">
       <h1 className="text-white text-xl font-bold text-center mb-6">Planes y Servicios</h1>
-
+      <h2 className="text-white text-xl text-center font-extrabold mt-10">Planes Community</h2>
       {/* Contenedor horizontal con scroll */}
       <div className="flex overflow-x-auto gap-6 md:justify-center md:gap-20 flex-nowrap mt-12">
         {/* Tarjeta 1 */}
@@ -126,6 +126,7 @@ const Planes = () => {
         </div>
       </div>
             {/* Contenedor horizontal con scroll */}
+            <h2 className="text-xl font-extrabold text-center text-white mt-10">Planes Web</h2>
       <div className="flex overflow-x-auto gap-6 md:justify-center md:gap-20 flex-nowrap mt-10">
         {/* Tarjeta 1 */}
         <div className="flex-shrink-0 group relative w-80 h-96 border-2 border-gray-400 rounded-lg shadow-2xl bg-[#1f1f26] overflow-hidden transition-all duration-300 hover:shadow-indigo-500/100">
@@ -235,6 +236,7 @@ const Planes = () => {
         </div>
       </div>
                   {/* Contenedor horizontal con scroll */}
+      <h2 className="text-xl font-extrabold text-center text-white mt-10">Planes Mobile</h2>
       <div className="flex overflow-x-auto gap-6 md:justify-center md:gap-20 flex-nowrap mt-10">
         {/* Tarjeta 1 */}
         <div className="flex-shrink-0 group relative w-80 h-96 border-2 border-gray-400 rounded-lg shadow-2xl bg-[#1f1f26] overflow-hidden transition-all duration-300 hover:shadow-indigo-500/100">

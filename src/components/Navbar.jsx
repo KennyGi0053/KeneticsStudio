@@ -17,9 +17,8 @@ const Navbar = () => {
   const sections = [
     { id: "inicio", label: "Inicio" },
     { id: "servicios", label: "Servicios" },
-    { id: "quiensoy", label: "Quién Soy" },
-    { id: "proceso", label: "Nuestro Proceso de Servicio" },
-    { id: "por-que-elegirnos", label: "¿Por Qué Elegirnos?" },
+    { id: "planes", label: "Planes" },
+    { id: "testimonios", label: "Testimonios" },
     { id: "contacto", label: "Contacto" },
   ]
 

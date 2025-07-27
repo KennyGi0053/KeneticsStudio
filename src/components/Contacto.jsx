@@ -27,7 +27,7 @@ const Contacto = () => {
   };
 
   return (
-    <div className="p-10 mt-20">
+    <div id="contacto" className="p-10 mt-20">
       <h1 className="text-white text-xl text-center font-semibold">¿Contáctanos Que Esperas?</h1>
 
       {/* CONTENEDOR FLEX: contacto + formulario */}
