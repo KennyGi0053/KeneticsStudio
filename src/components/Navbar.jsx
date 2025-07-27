@@ -1,11 +1,10 @@
 import { useState } from "react"
 import logo from "../assets/logoK1.png"
 import { Menu, X } from "lucide-react"
-import { motion } from "framer-motion"
+import { motion, AnimatePresence } from "framer-motion"
 
 const Navbar = () => {
-
-     const [open, setOpen] = useState(false)
+  const [open, setOpen] = useState(false)
 
   const scrollToSection = (id) => {
     const element = document.getElementById(id)
@@ -15,22 +14,28 @@ const Navbar = () => {
     }
   }
 
-   const sections = [
+  const sections = [
     { id: "inicio", label: "Inicio" },
     { id: "servicios", label: "Servicios" },
-    { id: "quiensoy", label: "Quién Soy"},
+    { id: "quiensoy", label: "Quién Soy" },
     { id: "proceso", label: "Nuestro Proceso de Servicio" },
     { id: "por-que-elegirnos", label: "¿Por Qué Elegirnos?" },
     { id: "contacto", label: "Contacto" },
   ]
 
   return (
-    <nav className="bg-black h-30 w-full">
-        <div className="flex items-center justify-between">
-        <img src={logo} alt="logo" 
-        className="h-20 md:ml-6 mt-2 "
+    <motion.nav
+      className="bg-black w-full"
+      initial={false}
+      animate={{ height: open ? "auto" : "5.5rem" }} // 5.5rem ≈ 88px (logo + margen)
+      transition={{ duration: 0.3 }}
+    >
+      <div className="flex items-center justify-between">
+        <img
+          src={logo}
+          alt="logo"
+          className="h-20 md:ml-6 mt-2"
         />
-         {/* Botón hamburguesa */}
         <button
           onClick={() => setOpen(!open)}
           className="md:hidden text-gray-200 focus:outline-none cursor-pointer"
@@ -42,11 +47,11 @@ const Navbar = () => {
         <div className="hidden md:flex flex-row items-center space-x-10 mr-10">
           {sections.map(({ id, label }) => (
             <motion.button
-            key={id}
-            whileHover={{ scale: 1.1, color: "#0aadbf" }}
-            whileTap={{ scale: 0.95 }}
-            onClick={() => scrollToSection(id)}
-            className="text-gray-200 text-md font-medium hover:text-[#004aeb] transition cursor-pointer"
+              key={id}
+              whileHover={{ scale: 1.1, color: "#0aadbf" }}
+              whileTap={{ scale: 0.95 }}
+              onClick={() => scrollToSection(id)}
+              className="text-gray-200 text-md font-medium hover:text-[#004aeb] transition cursor-pointer"
             >
               {label}
             </motion.button>
@@ -55,20 +60,28 @@ const Navbar = () => {
       </div>
 
       {/* Menú en móvil */}
-      {open && (
-        <div className="flex flex-col border-b border-gray-300 shadow-md md:hidden gap-4 mt-2 px-4 pt-1 bg-gray-100">
-          {sections.map(({ id, label }) => (
-            <button
-              key={id}
-              onClick={() => scrollToSection(id)}
-              className="text-gray-500 text-sm text-left cursor-pointer"
-            >
-              {label}
-            </button>
-          ))}
-        </div>
-      )}
-    </nav>
+      <AnimatePresence>
+        {open && (
+          <motion.div
+            initial={{ opacity: 0, height: 0 }}
+            animate={{ opacity: 1, height: "auto" }}
+            exit={{ opacity: 0, height: 0 }}
+            transition={{ duration: 0.3 }}
+            className="flex flex-col shadow-md md:hidden gap-4 px-4 pt-2 pb-4 bg-black"
+          >
+            {sections.map(({ id, label }) => (
+              <button
+                key={id}
+                onClick={() => scrollToSection(id)}
+                className="text-[#cfd0d1] text-sm text-left cursor-pointer"
+              >
+                {label}
+              </button>
+            ))}
+          </motion.div>
+        )}
+      </AnimatePresence>
+    </motion.nav>
   )
 }
 
