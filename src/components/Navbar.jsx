@@ -6,13 +6,20 @@ import { motion, AnimatePresence } from "framer-motion"
 const Navbar = () => {
   const [open, setOpen] = useState(false)
 
-  const scrollToSection = (id) => {
-    const element = document.getElementById(id)
-    if (element) {
-      element.scrollIntoView({ behavior: "smooth", block: "start" })
+ const scrollToSection = (id) => {
+  const element = document.getElementById(id)
+  if (element) {
+    const offset = 80 // altura aprox. del navbar
+    const top = element.getBoundingClientRect().top + window.scrollY - offset
+
+    window.scrollTo({ top, behavior: "smooth" })
+
+    // Espera un poco antes de cerrar el menú móvil (para que no interrumpa el scroll)
+    setTimeout(() => {
       setOpen(false)
-    }
+    }, 400)
   }
+}
 
   const sections = [
     { id: "inicio", label: "Inicio" },

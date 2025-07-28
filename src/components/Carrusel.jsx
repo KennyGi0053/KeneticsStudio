@@ -55,7 +55,7 @@ const Carrusel = () => {
 
   return (
     <div
-      className="relative w-full h-[500px] bg-black flex items-center justify-center px-4 overflow-hidden mt-8"
+      className="relative w-full h-[500px] bg-black flex items-center justify-center px-4 overflow-hidden mt-10"
       onMouseEnter={() => setIsPaused(true)}
       onMouseLeave={() => setIsPaused(false)}
       onTouchStart={handleTouchStart}
