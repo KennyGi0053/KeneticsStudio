@@ -35,33 +35,46 @@ const Contacto = () => {
         
         {/* Sección de contactos */}
         <div className="flex flex-col gap-8 md:w-1/2">
-      <h1 className="text-white text-xl font-bold ">¿Listo para comenzar?</h1>
+      <h1 className="text-white text-3xl font-bold ">¿Listo para comenzar?</h1>
       <p className="text-white text-lg">
         Contáctanos para una consulta gratuita y descubre cómo podemos ayudarte a crecer tu negocio.
       </p>
-          <div className="flex flex-row items-start">
-            <img src={whatsapp} alt="WhatsApp" className="w-14 h-14" />
-            <div className="flex flex-col ml-4">
-              <p className="text-white text-lg">Llámanos</p>
-              <p className="text-white text-lg">+58 414-235-14-57</p>
-            </div>
-          </div>
+         <a
+  href="https://wa.me/584142351457"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="flex flex-row items-start hover:opacity-80 transition"
+>
+  <img src={whatsapp} alt="WhatsApp" className="w-14 h-14" />
+  <div className="flex flex-col ml-4">
+    <p className="text-white text-lg">Llámanos por WhatsApp</p>
+    <p className="text-white text-lg">+58 414-235-14-57</p>
+  </div>
+</a>
 
-          <div className="flex flex-row items-start">
-            <img src={correo} alt="Correo" className="w-14 h-14" />
-            <div className="flex flex-col ml-4">
-              <p className="text-white text-lg">Envíanos un Correo</p>
-              <p className="text-white text-lg">keneticsstudio@gmail.com</p>
-            </div>
-          </div>
+<a
+  href="mailto:keneticsstudio@gmail.com"
+  className="flex flex-row items-start hover:opacity-80 transition"
+>
+  <img src={correo} alt="Correo" className="w-14 h-14" />
+  <div className="flex flex-col ml-4">
+    <p className="text-white text-lg">Envíanos un Correo</p>
+    <p className="text-white text-lg">keneticsstudio@gmail.com</p>
+  </div>
+</a>
 
-          <div className="flex flex-row items-start">
-            <img src={instagram} alt="Instagram" className="w-14 h-14" />
-            <div className="flex flex-col ml-4">
-              <p className="text-white text-lg">Instagram</p>
-              <p className="text-white text-lg">@keneticsstudio</p>
-            </div>
-          </div>
+<a
+  href="https://www.instagram.com/kenetics.studio"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="flex flex-row items-start hover:opacity-80 transition"
+>
+  <img src={instagram} alt="Instagram" className="w-14 h-14" />
+  <div className="flex flex-col ml-4">
+    <p className="text-white text-lg">Instagram</p>
+    <p className="text-white text-lg">@keneticsstudio</p>
+  </div>
+</a>
         </div>
 
         {/* Formulario */}

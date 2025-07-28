@@ -28,7 +28,7 @@ const Planes = () => {
 
           <div className="absolute mt-4 top-0 left-0 w-full h-full bg-[#1f1f26] opacity-100 md:opacity-0 group-hover:md:opacity-100 transition-opacity duration-500 p-6 flex flex-col">
             <h2 className="text-xl font-semibold text-white">Community Silver</h2>
-            <h1 className="text-2xl text-white mt-4">$299/mes</h1>
+            <h1 className="text-2xl text-white mt-4">60$ - 90$ / Mes</h1>
 
             <div className="text-white mt-6 space-y-2">
               <div className="flex items-center gap-2">
@@ -64,7 +64,7 @@ const Planes = () => {
 
           <div className="absolute mt-4 top-0 left-0 w-full h-full bg-[#1f1f26] opacity-100 md:opacity-0 group-hover:md:opacity-100 transition-opacity duration-500 p-6 flex flex-col">
             <h2 className="text-xl font-semibold text-white">Community Gold</h2>
-            <h1 className="text-2xl text-white mt-4">$499/mes</h1>
+            <h1 className="text-2xl text-white mt-4">100$ - 150% / Mes</h1>
 
             <div className="text-white mt-6 space-y-2">
               <div className="flex items-center gap-2">
@@ -99,7 +99,7 @@ const Planes = () => {
 
           <div className="absolute top-0 left-0 w-full h-full bg-[#1f1f26] opacity-100 md:opacity-0 group-hover:md:opacity-100 transition-opacity duration-500 p-6 flex flex-col">
             <h2 className="text-xl mt-4 font-semibold text-white">Community Platinum</h2>
-            <h1 className="text-2xl text-white mt-4">$499/mes</h1>
+            <h1 className="text-2xl text-white mt-4">180$ - 250$ / Mes</h1>
 
             <div className="text-white mt-6 space-y-2">
               <div className="flex items-center gap-2">
